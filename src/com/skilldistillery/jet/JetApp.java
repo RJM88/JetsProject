@@ -9,8 +9,8 @@ public class JetApp {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		AirPort airPort = new AirPort();
-		airPort.popFleet();
-		
+//		airPort.airPortMenu();
+//		
 	}
 
 }

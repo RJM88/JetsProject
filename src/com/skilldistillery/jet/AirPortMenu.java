@@ -5,6 +5,8 @@ import java.util.Scanner;
 public class AirPortMenu {
 
 	public AirPortMenu() {
+		AirPort airPort = new AirPort();
+	
 		Scanner kb = new Scanner(System.in);
 
 //		while (commandersChoice != 0) {
@@ -22,13 +24,14 @@ public class AirPortMenu {
 			System.out.println("Please chose an option");
 			int commandersChoice = kb.nextInt();
 
-//			switch (commandersChoice) {
-//		case 1: // list all jets
-//			for (int i = 0; i < "ARRAYLIST".size; i++) {
-//				if (ARRAYLIST != null) { 
-//					System.out.println(ARRAYLIST); 
-//				}
-//			}
+			switch (commandersChoice) {
+		case 1: // list all jets
+			for(int i = 0; i < fleetArray.size; i++) { // for each loop will work through the food truck array.
+				if (fleetArray != null) { // if the food truck/ private sting name doesn't == null...
+					System.out.println(fleetArray.get[i]); // Will print the truck info from the food truck array.
+				}
+			}
+			break;
 //		case 2: // launch all jets
 //			for (int i = 0; i < "ARRAYLIST".size; i++) {
 //				if (ARRAYLIST != null) { 
