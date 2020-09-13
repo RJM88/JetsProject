@@ -9,10 +9,6 @@ public class FighterJet extends Jet implements CombatReady {
 	public FighterJet(String modelOfJet, double rangeOfJet, double speedOfJet, long priceOfJet) {
 		super(modelOfJet, rangeOfJet, speedOfJet, priceOfJet);
 	}
-	
-//	public void fly() {
-//		System.out.println( getModelOfJet() + " up and flying!");
-//	}
 
 	@Override
 	public void fight() {

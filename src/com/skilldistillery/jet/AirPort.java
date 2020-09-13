@@ -58,10 +58,10 @@ public class AirPort {
 			System.out.println("2.) Get all the jets in the air!");
 			System.out.println("3.) Who is the fastest in the fleet.");
 			System.out.println("4.) Who can travel the farthest.");
-			System.out.println("5.) Load all the Casrgo Jets");
+			System.out.println("5.) Load all the Cargo Jets");
 			System.out.println("6.) In case of attack, get our fighters in the air.");
-			System.out.println("7.) New Jet looking to join the fleet.");
-			System.out.println("8.) One of your Jets leaving the fleet.");
+			System.out.println("7.) New jet looking to join the fleet.");
+			System.out.println("8.) One of our jets leaving the fleet.");
 			System.out.println("9.) Quit ");
 			System.out.println();
 			System.out.println("Please chose an option");
@@ -120,6 +120,7 @@ public class AirPort {
 					}
 
 				}
+				System.out.println();
 				break;
 
 			case 6: // Get all fighters
@@ -131,6 +132,7 @@ public class AirPort {
 					}
 
 				}
+				System.out.println();
 				break;
 
 			case 7: // Add new jet
@@ -162,7 +164,6 @@ public class AirPort {
 				break;
 
 			case 8: // Delete Jet
-//			for( int i = 0; i < fleetArray.size(); i++) {
 				int i = 1;
 				for (Jet jet : fleetArray) {
 
@@ -178,13 +179,11 @@ public class AirPort {
 
 				break;
 			case 9:
-				System.out.println("Good Bye!"); // Will display Good Bye,
-				// Change the quit boolean to true. When the quit boolean = true, it will break
-				// out of the while loop and end the program.
+				System.out.println("Good Bye!");
 				quit = true;
 				break;
 			default:
-				System.out.println("Not valid"); // Will display if user input does not match any cases.
+				System.out.println("Not valid");
 			}
 		}
 

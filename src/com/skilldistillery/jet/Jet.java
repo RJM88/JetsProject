@@ -60,10 +60,10 @@ public abstract class Jet {
 
 		System.out.println(modelOfJet + " up and flying!");
 		System.out.println("I can go a speed of: " + speedOfJet);
-		System.out.println("I have a Range of: " + rangeOfJet);
+		System.out.println("I have a range of: " + rangeOfJet);
 		System.out.printf("I can fly for " + "%.2f", (rangeOfJet / speedOfJet));
 		System.out.println(" hours!");
-		System.out.println("Ill cost you about: " + priceOfJet);
+		System.out.println("I'll cost you about: $" + priceOfJet);
 		System.out.println();
 	}
 
