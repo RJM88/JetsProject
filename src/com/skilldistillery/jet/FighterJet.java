@@ -10,9 +10,9 @@ public class FighterJet extends Jet implements CombatReady {
 		super(modelOfJet, rangeOfJet, speedOfJet, priceOfJet);
 	}
 	
-	public void fly() {
-		double amoutOfFlyTime = (getRangeOfJet() / getSpeedOfJet()); 
-	}
+//	public void fly() {
+//		System.out.println( getModelOfJet() + " up and flying!");
+//	}
 
 	@Override
 	public void fight() {
@@ -33,14 +33,6 @@ public class FighterJet extends Jet implements CombatReady {
 		if (getClass() != obj.getClass())
 			return false;
 		return true;
-	}
-
-	@Override
-	public String toString() {
-		return "FighterJet [hashCode()=" + hashCode() + ", getModelOfJet()=" + getModelOfJet() + ", getRangeOfJet()="
-				+ getRangeOfJet() + ", getSpeedOfJet()=" + getSpeedOfJet() + ", getPriceOfJet()=" + getPriceOfJet()
-				+ ", getSpeedInMach()=" + getSpeedInMach() + ", toString()=" + super.toString() + ", getClass()="
-				+ getClass() + "]";
 	}
 
 }

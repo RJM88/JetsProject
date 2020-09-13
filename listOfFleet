@@ -1,5 +1,5 @@
-Hornet,3000,50,32000,Fighter
-Tiger,3000,50,32000,Fighter
-Boing,5000,30,11000,Cargo
-random,3000,50,32000,Cargo
-this one too,3000,50,32000,Fighter
+Hornet,60000,60,32000,Passenger
+Tiger,5000,50,32000,Fighter
+Boing,3000,30,11000,Cargo
+random,7000,70,32000,Cargo
+this one too,8000,80,32000,Fighter

@@ -7,7 +7,6 @@ public class CargoPlane extends Jet implements CargoCarrier {
 
 	public CargoPlane(String modelOfJet, double rangeOfJet, double speedOfJet, long priceOfJet) {
 		super(modelOfJet, rangeOfJet, speedOfJet, priceOfJet);
-		// TODO Auto-generated constructor stub
 	}
 
 	@Override

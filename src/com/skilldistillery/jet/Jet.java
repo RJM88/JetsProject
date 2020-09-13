@@ -5,7 +5,7 @@ public abstract class Jet {
 	private double rangeOfJet;
 	private double speedOfJet;
 	private double speedInMach;
-	
+
 	public void setSpeedInMach(double speedInMach) {
 		this.speedInMach = speedInMach;
 	}
@@ -56,14 +56,18 @@ public abstract class Jet {
 		this.priceOfJet = priceOfJet;
 	}
 
-	public void fly(double speed) {
-		setSpeedOfJet(speed);
-		setSpeedInMach(speed);
-		System.out.println(" I can fly for: " + (getRangeOfJet() / getSpeedOfJet()) + " Hours.");
+	public void fly() {
 
+		System.out.println(modelOfJet + " up and flying!");
+		System.out.println("I can go a speed of: " + speedOfJet);
+		System.out.println("I have a Range of: " + rangeOfJet);
+		System.out.printf("I can fly for " + "%.2f", (rangeOfJet / speedOfJet));
+		System.out.println(" hours!");
+		System.out.println("Ill cost you about: " + priceOfJet);
+		System.out.println();
 	}
 
-	public double getSpeedInMach( ) {
+	public double getSpeedInMach() {
 		return speedInMach;
 	}
 
