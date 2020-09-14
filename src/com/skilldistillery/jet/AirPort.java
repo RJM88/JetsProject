@@ -2,7 +2,6 @@ package com.skilldistillery.jet;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -64,7 +63,7 @@ public class AirPort {
 			System.out.println("8.) One of our jets leaving the fleet.");
 			System.out.println("9.) Quit ");
 			System.out.println();
-			System.out.println("Please chose an option");
+			System.out.println("Please choose an option");
 			int commandersChoice = kb.nextInt();
 			kb.nextLine();
 			switch (commandersChoice) {
